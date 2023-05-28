@@ -30,7 +30,6 @@ jobs:
       - run: chmod +x ./gradlew
 
       - run: git tag ${{github.run_number}}
-      - run: "./gradlew jar"
       - run: "./gradlew publish"
       - run: |
             function mirror() {
