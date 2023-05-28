@@ -31,7 +31,8 @@ jobs:
 
       - run: git tag ${{github.run_number}}
 
-      - run: ./gradlew publish
+      - name: pubslih gradle
+        run: ./gradlew publish
 
       - name: Publish
         run: |
