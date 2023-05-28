@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.bloepiloepi",
+    "module": "MinestomPvP",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "MinestomPvP-1.0.jar",
+          "url": "MinestomPvP-1.0.jar",
+          "size": 253723,
+          "sha512": "ea6b4624b15784baede9a5a890ef00de4d8a641579299798974670366c46fb82a9f8f33fa743687ad1fa6b06ebda19f5ff5da6e3b79048ace53d16d1475b9e8a",
+          "sha256": "58440d2f634e788b933a4cca3585366c6dd50ade9172b187f31de41a72a4d4de",
+          "sha1": "f832b325a48acf86562616d0c0e5277343a2fb12",
+          "md5": "076f8591751bdaf7663a851dee488a3f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "MinestomPvP-1.0.jar",
+          "url": "MinestomPvP-1.0.jar",
+          "size": 253723,
+          "sha512": "ea6b4624b15784baede9a5a890ef00de4d8a641579299798974670366c46fb82a9f8f33fa743687ad1fa6b06ebda19f5ff5da6e3b79048ace53d16d1475b9e8a",
+          "sha256": "58440d2f634e788b933a4cca3585366c6dd50ade9172b187f31de41a72a4d4de",
+          "sha1": "f832b325a48acf86562616d0c0e5277343a2fb12",
+          "md5": "076f8591751bdaf7663a851dee488a3f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "MinestomPvP-1.0-javadoc.jar",
+          "url": "MinestomPvP-1.0-javadoc.jar",
+          "size": 517837,
+          "sha512": "fc7c394858ccdfdcc4f27dac2406d1db78744c49392ac69af2a4f54df6c33f336518abc001d9032ee72942bf9b642817a57904db0a20909f7adef4cfe06c3d9b",
+          "sha256": "6d65530cb592be5e8d3ecdebb9acb1e5855cb7982af3c8edf5c8a5b3fd0fab6c",
+          "sha1": "2f6b847cc5d11bb92c6c55e95650339efe0ae79c",
+          "md5": "79ef641502ea6c8b85ac7efea6719557"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "MinestomPvP-1.0-sources.jar",
+          "url": "MinestomPvP-1.0-sources.jar",
+          "size": 119626,
+          "sha512": "c7fa3baf28dc2ff8824e06a15f94b0730255db48089432a5c7ca04f2b8eb96a91b3c6887fc2723a878450c14cf9bd76ebf4353b4c8f03bf1555e862f39618e69",
+          "sha256": "54d85b85160b7ad7d14c60e79c6e24560bc75d3552e3e9b08660c68dda69df51",
+          "sha1": "79e098d256089e699813fa8bd25c4dd646e36d14",
+          "md5": "c55b250fec4449090978b7e0e48dbf9e"
+        }
+      ]
+    }
+  ]
+}
