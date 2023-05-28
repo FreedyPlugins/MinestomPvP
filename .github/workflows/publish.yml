@@ -23,7 +23,6 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
-
       - name: Publish
         run: |
           chmod +x ./gradlew
