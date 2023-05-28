@@ -27,15 +27,11 @@ jobs:
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
 
-      - run: chmod +x ./gradlew
-
-      - run: git tag ${{github.run_number}}
-
-      - name: pubslih gradle
-        run: ./gradlew publish
-
       - name: Publish
         run: |
+          chmod +x ./gradlew
+          git tag ${{github.run_number}}
+          ./gradlew publish
           function mirror() {
             echo "---"
             echo $1
