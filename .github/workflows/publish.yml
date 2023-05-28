@@ -33,7 +33,8 @@ jobs:
 
       - run: ./gradlew publish
 
-      - run: |
+      - name: Publish
+        run: |
           function mirror() {
             echo "---"
             echo $1
