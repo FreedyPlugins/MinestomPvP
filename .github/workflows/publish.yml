@@ -32,7 +32,7 @@ jobs:
       - run: git tag ${{github.run_number}}
       - run: "./gradlew publish"
       - run: |
-            function mirror() {
+          function mirror() {
             echo "---"
             echo $1
             echo $2
