@@ -372,11 +372,14 @@ public class DamageListener {
 		}
 		
 		// Play sound (copied from Minestom, because of complications with cancelling)
-		if (config.isSoundsEnabled() && sound != null) entity.sendPacketToViewersAndSelf(new SoundEffectPacket(
-				sound, entity instanceof Player ? Sound.Source.PLAYER : Sound.Source.HOSTILE,
-				entity.getPosition(),
-				1.0f, 1.0f
-		));
+		if (config.isSoundsEnabled() && sound != null) {
+			SoundEffectPacket packet = new SoundEffectPacket(
+					sound, null, entity instanceof Player ? Sound.Source.PLAYER : Sound.Source.HOSTILE,
+					entity.getPosition(),
+					1.0f, 1.0f, 0L
+			);
+			entity.sendPacketToViewersAndSelf(packet);
+		}
 		
 		if (death && !event.isCancelled()) {
 			EntityPreDeathEvent entityPreDeathEvent = new EntityPreDeathEvent(entity, type);
